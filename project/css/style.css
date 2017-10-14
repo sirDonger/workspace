@@ -146,6 +146,7 @@ ul {
   }
     .b-header {
       min-height: 630px;
+      padding-top: 25px;
     }
       .sert-cont {
         width: 100%;
