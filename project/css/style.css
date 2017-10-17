@@ -1153,74 +1153,9 @@ ul {
         font-weight: 400;
       }
       .b-footer {
-        
+
       }
-      .footer-title {
-        font-size: 21px;
-        text-align: right;
-        text-shadow: 4px 4px 0px rgba(255,255,255,0.25);
-        font-family: 'Lobster';
-        margin: 0;
-        margin-bottom: 25px;
-      }
-        .order {
-          width: 100%;
-          position: relative;
-          background: url(../img/yellow-bg.png) center;
-          -webkit-border-radius: 8px;
-          -moz-border-radius: 8px;
-          border-radius: 8px;
-          padding: 20px;
-          -webkit-box-sizing: border-box;
-          -moz-box-sizing: border-box;
-          box-sizing: border-box;
-          position: relative;
-          min-height: 300px;
-        }
-        .order-img {
-          position: absolute;
-          left: 0;
-          bottom: 0;
-        }
-        .order-title {
-          color: #333029;
-          font-size: 24px;
-          text-align: right;
-          text-shadow: 4px 4px 0px rgba(255,255,255,0.25);
-          font-family: 'Lobster';
-          margin: 0;
-          margin-bottom: 25px;
-        }
-      .form {
-        width: 355px;
-        float: right;
-      }
-      .form-group {
-        margin-bottom: 15px;
-      }
-        .form-control {
-          width: 100%;
-          display: inline-block;
-          height: 42px;
-          line-height: 42px;
-          padding: 0px 15px;
-          text-align: left;
-          background: rgb(255,247,230);
-          background: -moz-linear-gradient(top, rgba(255,247,230,1) 0%, rgba(255,230,181,1) 100%);
-          background: -webkit-linear-gradient(top, rgba(255,247,230,1) 0%,rgba(255,230,181,1) 100%);
-          background: linear-gradient(to bottom, rgba(255,247,230,1) 0%,rgba(255,230,181,1) 100%);
-          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fff7e6', endColorstr='#ffe6b5',GradientType=0 );
-          -webkit-border-radius: 8px;
-          -moz-border-radius: 8px;
-          border-radius: 8px;
-          -webkit-box-shadow: 2px 3px 0px 0px #806666;
-          -moz-box-shadow: 2px 3px 0px 0px #806666;
-          box-shadow: 2px 3px 0px 0px #806666;
-          font-size: 16px;
-          color: #665252;
-          font-weight: 700;
-          border: none;
-        }
+
         .order-btn {
           width: 100%;
           background: rgb(255,203,0);
@@ -1293,3 +1228,56 @@ ul {
             height: 172px;
             background: url(../img/prost.png) no-repeat center;
           }
+
+   #buyItem {
+     margin: 0 auto;
+     width: 820px;
+     padding: 10px 0;
+
+   }
+
+#TitleSubmitEmail {
+  margin-left: 35px;
+  font-size: 1.7em;
+}
+#TitleSubmitEmail h2 {
+  margin: 5px 0;
+}
+
+/* */
+#form {
+  font-size: 1.8em;
+  margin: 0 auto;
+  width: 610px;
+}
+
+#userName, #emailAddress, #subject {
+  width: 600px;
+  height: 35px;
+  margin-top: 10px;
+  font-size: 0.9em;
+  padding-left: 20px;
+  outline: none;
+  webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
+}
+
+#message {
+  width: 600px;
+  height: 250px;
+  padding-left: 20px;
+  font-size: 0.9em;
+  outline: none;
+}
+
+#submit {
+  margin-top: 10px;
+  font-size: 0.9em;
+  border-radius: 5px;
+}
+
+#submit:hover {
+  color: black;
+  background-color: #FFAA00;
+}
